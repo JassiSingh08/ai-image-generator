@@ -7,6 +7,8 @@ const ImageGenerator = () => {
   const [image_url, setImage_url] = useState('/')
   const inputRef = useRef(null)
 
+  //NEED TO FIND A FREE AI GENERATOR API // PAUSING PROJECT
+
   const GenerateImage = async () => {
     if(inputRef.current.value === "") {
       return  0
