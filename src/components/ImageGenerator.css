@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     padding: 1em 0;
-    gap: 15px;
+    gap: 20px;
 }
 
 .Gen-text{
@@ -59,4 +59,25 @@
     border-radius: 50px;
     cursor: pointer;
     background: #DE1E89;
+}
+
+.loading-bar{
+    width: 0px;
+    height: 8px;
+    background: #DE1E89;
+}
+
+.loading-bar-full{
+    width: 384px;
+    height: 8px;
+    background: #DE1E89;  
+    transition: 15s;
+}
+
+.display-none{
+    display: none;
+}
+
+.loading-text{
+    font-style: 18px;
 }
