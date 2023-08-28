@@ -20,7 +20,7 @@ const ImageGenerator = () => {
       const response = await fetch(
         "https://api-inference.huggingface.co/models/prompthero/openjourney",
         {
-          headers: { Authorization: `Bearer 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` },
+          headers: { Authorization: `Bearer //HUGGING FACE API KEY//` },
           method: "POST",
           body: JSON.stringify( data ), // Assuming the API expects the data in a specific format
         }
