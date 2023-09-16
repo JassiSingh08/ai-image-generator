@@ -4,5 +4,6 @@
 So waiting for a free Image Generation API to restart the project
 
 
-Update 
-Project Completed
+Update:
+
+// Project Completed
